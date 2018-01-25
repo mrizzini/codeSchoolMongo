@@ -1,0 +1,22 @@
+{
+  "name": "mongocodeschool",
+  "version": "1.0.0",
+  "description": "code school practice lessons - mongo",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrizzini/codeSchoolMongo.git"
+  },
+  "author": "Matt Rizzini",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrizzini/codeSchoolMongo/issues"
+  },
+  "homepage": "https://github.com/mrizzini/codeSchoolMongo#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}

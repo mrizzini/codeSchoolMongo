@@ -13,7 +13,7 @@ use myGame // shell command to create a database called myGame
 {
     name: "Frankenstein",
     health: 8,
-    last fought: new Date(2018, 0, 12),
+    lastFought: new Date(2018, 0, 12),
     attacks: ["punch", "scream", "re-animate"],
     stats: {
         attack: 8.5,
@@ -26,8 +26,8 @@ db.monsters.insert( //shell command to insert monster
  {
      name: "Nosferatu",
      health: 7.5,
-     last fought: new Date(2018, 0, 15),
-     attacks: ["bite", "hypnosis", "transform into bat"],
+     lastFought: new Date(2017, 9, 31),
+     attacks: ["bite", "hypnosis", "re-animate"],
      stats: {
         attack: 8.0,
         defense: 9.0

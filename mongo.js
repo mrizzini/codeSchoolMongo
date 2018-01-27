@@ -97,3 +97,9 @@ db.monsters.find().count()
 db.monsters.find().sort({"level": -1})
 
 };
+
+// starting level 5 assignment, form questions
+
+db.monsters.aggregate([{"$group": {"_id": "$type"}}])
+
+db.monsters.aggregate( [{"$group": {"_id": "$type", "total": {"$sum": 1}, "averageAttack": {"$avg": "$stats.attack"}}}])
